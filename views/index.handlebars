@@ -1,0 +1,25 @@
+<section class="py-2">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <h1 class="display-3 mt-3 pt-5">
+                Dev Wolves Books
+            </h1>
+            <p class="lead">Learning Node.js And Stripe</p>
+            <form action="/charge" method='post'>
+                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="pk_test_rPhyq0DRjaMO1kCa4nAwakrb00tQvYFWMg" data-amount="999"
+                    data-name="Tokyo ghoul Comic" data-description="A Anti Social hero"
+                    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                    data-locale="auto"></script>
+                <script>
+                    document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+
+                </script>
+                <button type="submit" class="btn btn-outline-dark text-white btn-lg">Purchase for 900</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <img src="img/tokyo-ghoul-vol-1.jpg" alt="Book poster">
+        </div>
+    </div>
+</section>

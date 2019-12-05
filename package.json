@@ -1,0 +1,31 @@
+{
+  "name": "node.js_stripeapi",
+  "version": "1.0.0",
+  "description": "Demonstration of Stripe Payment API with nodejs to sale book online",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princ09/online_book_sale.git"
+  },
+  "keywords": [
+    "node.js",
+    "stripe",
+    "API",
+    "payment"
+  ],
+  "author": "Rajkumar Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/princ09/online_book_sale/issues"
+  },
+  "homepage": "https://github.com/princ09/online_book_sale#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "stripe": "^7.14.0"
+  }
+}
